@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="no.kristiania.my_application_with_multiple_applications">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_image"
+        android:label="Santa's helper"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".calculator.CalculatorActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".News.NewsActivity"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".school.SchoolActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".sqLite.SQLiteActivity"
+            android:parentActivityName=".MainActivity"/>
+    </application>
+
+</manifest>

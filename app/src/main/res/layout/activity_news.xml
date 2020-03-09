@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/displayedNum">
+
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="30sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/news_activity_amta"
+                style="@style/newsPaper"
+                android:background="@drawable/amta_image"/>
+
+            <TextView
+                android:id="@+id/news_activity_vg"
+                style="@style/newsPaper"
+                android:background="@drawable/vg_image"
+                />
+
+            <TextView
+                android:id="@+id/news_activity_tek"
+                style="@style/newsPaper"
+                android:background="@drawable/tek_image"/>
+
+            <TextView
+                android:id="@+id/news_activity_nrk"
+                style="@style/newsPaper"
+                android:background="@drawable/nrk_image"/>
+
+            <TextView
+                android:id="@+id/news_activity_tv2"
+                style="@style/newsPaper"
+                android:background="@drawable/tv2_image"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/news_activity_dinside"
+                style="@style/newsPaper"
+                android:background="@drawable/dinside_image"/>
+
+            <TextView
+                android:id="@+id/news_activity_aftenposten"
+                style="@style/newsPaper"
+                android:background="@drawable/aftenposten_image"/>
+
+            <TextView
+                android:id="@+id/news_activity_dagbladet"
+                style="@style/newsPaper"
+                android:background="@drawable/dagbladet_image"/>
+
+            <TextView
+                android:id="@+id/news_activity_nettavisen"
+                style="@style/newsPaper"
+                android:background="@drawable/nettavisen_image"
+                />
+
+            <TextView
+                android:id="@+id/news_activity_addressavisen"
+                style="@style/newsPaper"
+                android:background="@drawable/adressavisen_image"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/news_activity_e24"
+                style="@style/newsPaper"
+                android:background="@drawable/e24_image"/>
+
+            <TextView
+                android:id="@+id/news_activity_BT"
+                style="@style/newsPaper"
+                android:background="@drawable/bt_image"/>
+
+            <TextView
+                android:id="@+id/news_activity_dagens_nliv"
+                style="@style/newsPaper"
+                android:background="@drawable/dn_image"/>
+
+            <TextView
+                android:id="@+id/news_activity_sol"
+                style="@style/newsPaper"
+                android:background="@drawable/sol_image"/>
+
+            <TextView
+                android:id="@+id/news_activity_abc"
+                style="@style/newsPaper"
+                android:background="@drawable/abc_image"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

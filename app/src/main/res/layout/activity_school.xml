@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/activity_school_timeEdit_link"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="TimePlan"
+        android:textSize="31dp"
+        android:textColor="@color/gold"
+        android:background="@drawable/rd_corners_school"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/activity_school_programing_link"
+        android:layout_height="160dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@drawable/rd_corners_school"
+        android:text="Informasjonsteknologi\n- Programmering"
+        android:textColor="@color/gold"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/activity_school_timeEdit_link"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_school_timeEdit_link" />
+
+    <TextView
+        android:id="@+id/activity_school_booking_of_rooms_link"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/rd_corners_school"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Booking"
+        android:textColor="@color/gold"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toEndOf="@+id/activity_school_programing_link"
+        app:layout_constraintTop_toTopOf="@+id/activity_school_programing_link" />
+
+    <TextView
+        android:id="@+id/activity_school_studentweb_link"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rd_corners_school"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="StudentWeb"
+        android:textColor="@color/gold"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/activity_school_booking_of_rooms_link"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_school_programing_link" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
